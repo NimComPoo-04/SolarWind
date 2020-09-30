@@ -35,7 +35,7 @@ public class Question6
 			a = sc.nextDouble() ;		
 			b = sc.nextDouble() ;		
 			c = sc.nextDouble() ;
-			System.out.println("Area of /\\ = "+area(a, b, c);
+			System.out.println("Area of /\\ = "+q.area(a, b, c));
 		}	
 		System.out.println("Enter the sides of /=\\");
 		{
@@ -43,14 +43,14 @@ public class Question6
 			a = sc.nextInt() ;		
 			b = sc.nextInt() ;		
 			c = sc.nextInt() ;
-			System.out.println("Area of /=\\ = "+area(a, b, c);
+			System.out.println("Area of /=\\ = "+q.area(a, b, c));
 		}
 		System.out.println("Enter the sides of /=/");
 		{
 			double a = 0, b = 0; 
 			a = sc.nextDouble() ;		
 			b = sc.nextDouble() ;		
-			System.out.println("Area of /=/ = "+area(a, b);
+			System.out.println("Area of /=/ = "+q.area(a, b));
 		}
 	}
 }
