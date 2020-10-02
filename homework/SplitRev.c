@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 void Tokenize_word(char*, int, char);
 int nextToken(char*, int, int, char*, int) ; 
 
@@ -29,7 +30,7 @@ int nextToken(char* c, int len, int pos, char* word, int lenw)
 {
 	int lea = strlen(c+pos) ;
 	strcpy(word, c);
-	return lea ; 
+	return lea ;
 }
 
 void Tokenize_word(char* c, int len, char cs)
