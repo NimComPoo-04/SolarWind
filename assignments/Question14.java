@@ -2,8 +2,8 @@ import java.util.Scanner ;
 
 public class Question14
 {
-	int data ; // This is the original data
-	long info ; // This is the prossed info
+	private int data ; // This is the original data
+	private long info ; // This is the prossed info
 
 	Question14(int data)
 	{

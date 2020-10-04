@@ -2,7 +2,7 @@ import java.util.Scanner ;
 
 public class Question12
 {
-	int[] val ;// this is the sorter ; 
+	private int[] val ;// this is the sorter ; 
 
 	Question12(int[] val) // this is obj oriented... >:-(
 	{

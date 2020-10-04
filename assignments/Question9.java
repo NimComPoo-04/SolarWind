@@ -2,7 +2,7 @@ import java.util.Scanner ;
 
 public class Question9
 {
-	int[] val ; // this is var for [ 7 | 8 | 5 | 4 ]
+	private int[] val ; // this is var for [ 7 | 8 | 5 | 4 ]
 
 	// this inits the Question9 obj...
 	Question9(int[] val)

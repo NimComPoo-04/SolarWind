@@ -2,9 +2,9 @@ import java.util.Scanner ;
 
 public class Question7
 {
-	char ch ; 
-	int len ; 
-	int bre ; 
+	private char ch ; 
+	private int len ; 
+	private int bre ; 
 
 	Question7(char ch, int len, int bre)
 	{

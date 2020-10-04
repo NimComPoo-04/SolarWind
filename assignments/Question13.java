@@ -2,7 +2,7 @@ import java.util.Scanner ;
 
 public class Question13
 {
-	long[] val ; 
+	private long[] val ; 
 
 	Question13(long[] val)
 	{
