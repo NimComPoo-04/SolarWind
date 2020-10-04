@@ -1,13 +1,14 @@
 #include <stdio.h>
 
+// This function will do some cool stuff like Print a pattern
 void PrintTheStuff(int);
 int main(void)
 {
-	int asdf ; 
-	printf("Enter -> :") ; 
-	scanf("%d", &asdf) ; 
+	int asdf ;
+	printf("Enter -> :") ;
+	scanf("%d", &asdf) ;
 
-	PrintTheStuff(asdf) ; 
+	PrintTheStuff(asdf) ;
 }
 
 void PrintTheStuff(int d)
@@ -16,7 +17,7 @@ void PrintTheStuff(int d)
 	{
 		for( int j = 0 ; j < d ; j++)
 		{
-			printf("%d", (d-(j+i)%d)) ; 
+			printf("%d", (d-(j+i)%d)) ;
 		}
 		puts("") ;
 	}
