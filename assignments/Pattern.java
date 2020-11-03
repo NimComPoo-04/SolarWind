@@ -41,7 +41,7 @@ public class Pattern
             System.out.print(&quot;Enter the line no. : &quot;);
             a = sc.nextInt();
         }while(a&lt;=0);
-        PatternC b = new PatternC(a);
+        Pattern b = new Pattern(a);
         b.pat();
     }
 }
